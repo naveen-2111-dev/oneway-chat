@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHAT</title>
+    <link rel="stylesheet" href="style.css" media="screen"/>
+</head>
+<body>
+    <div class="container">
+        <div class="cont">
+            <p id="msg">MESSAGE</p>
+        </div>
+        <div class="list">
+            <ul id="cont">
+            </ul>
+        </div>
+        <div class="info">
+            <input id="input" type="text" placeholder="MESSAGE !">
+            <button id="but" onclick="Click()">send</button>
+        </div>
+    </div>    
+    <script>
+        let list = document.getElementById("cont")
+        let data = document.createElement("li")
+        let msg = document.getElementById("input")
+        
+        function Click() {
+            const store = msg.value
+
+            if (data !== "") {
+                let data = document.createElement("li");
+                data.textContent = store;
+                list.appendChild(data);
+            }
+        }
+    </script>
+</body>
+</html>

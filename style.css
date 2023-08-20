@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, black, grey, grey,black);
+}
+
+.container{
+    background-image: url(wtsapp.jpg);
+    width: 40rem;
+    height: 40rem;
+    margin-left: 23rem;
+    margin-top: 7px;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 14px black;
+}
+
+#msg{
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 2rem;
+    background-color: darkgoldenrod;
+    border-radius: 1rem 1rem 0 0;
+    box-shadow: 5px 5px 12px black;
+}
+
+.info{
+    margin-top: 31rem;
+    padding-left: 8rem;
+    background-color: darkgoldenrod;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    border-radius: 0 0 1rem 1rem;
+    box-shadow: 5px 5px 12px black;
+    box-shadow: 5px 0 12px black;
+    position: static;
+}
+
+input[type="text"],::placeholder{
+    padding-top: 10px;
+    padding-bottom: 8px;
+    margin-left: end;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    width: 20rem;
+    box-shadow: 5px 5px 12px black;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+button{
+    font-size: 1rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 1px;
+    box-shadow: 5px 5px 12px black;
+    border: none;
+    border-radius: .5rem;
+}
+
+button:hover{
+    background-color: darkgreen;
+    box-shadow: inset 5px 5px 12px grey;
+}
+
+.list{
+    color: white;
+    padding-top: 20px;
+    padding-left:30px;
+    font-family: monospace;
+}
+
+#cont:hover{
+    box-shadow: 5px 5px 12px black;
+    border-radius: 1rem;
+    margin-right: 19px;
+}
